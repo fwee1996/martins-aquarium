@@ -1,0 +1,61 @@
+.pageHeader{
+    text-align: center;
+    padding: 0.2em;
+    font-size: 20px;
+    font-family:;
+    color :rgb(27, 95, 189)
+}
+.Body{
+    background-color:rgba(133, 243, 253, 0.89)
+}
+
+.fish__image {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    /* Add any other styles here */
+}
+.fish.card{
+    /*flex: 1; /* Make the container take up remaining space */
+    margin-right: 250px; /* Add some spacing between the sections */
+    background-color: rgb(51, 184, 255);
+    width: 500px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 10px;
+    
+}
+.tip.card{
+    /*flex: 1; /* Make the container take up remaining space */
+    margin-right: 100px; /* Add some spacing between the sections */
+    background-color: rgba(164, 238, 18, 0.892);
+    width: 400px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.main {
+     display: flex; 
+    }
+
+/* .fishHeaderAndList {
+    flex: 1; /* Make the container take up remaining space */
+    /* margin-right: 20px; /* Add some space between the sections */
+ /*   padding-left: 20px; */
+/*}
+
+.tipHeaderandList {
+    flex: 1; /* Make the container take up remaining space */
+    /*margin-left: 20px; /*space between the sections */
+/*} */
+
+
+#locationHeaderandList{
+    background-color: rgb(205, 255, 25);
+    padding-left: 20px;
+}
+

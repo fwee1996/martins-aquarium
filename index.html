@@ -1,0 +1,120 @@
+<!-- lists fish, quotes, harvesting locations, 
+and fish/tank care tips on the right side of the page. -->
+
+<!-- Low Fidelity Wireframe
+What are the visual components that make up the user interface (e.g. fish list)?
+Construct a wireframe for the layout of the site.
+Data Design
+What are the properties of each fish that you will be representing in your HTML?
+What are the properties of the fish care tips that Martin wants on the side?
+What are the properties of the locations Martin has visited?
+Style and Layout Design
+What should be the class names for component?
+For example, locations for the container element for all locations, locations__header for the header, and location for each individual card.
+Which semantic tags should you use?
+You can be as creative as you like.
+There are very few hard rules when it comes to semantic tags. Refer to the image in chapter 2 for guidance. -->
+
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>Martin's Aquarium</title> 
+
+    <link rel="stylesheet" href="./styles/main.css"> 
+
+</head> 
+
+<body class="Body"> 
+
+    <!-- For example, locations for the container element for all locations,  
+
+        locations__header for the header, and location for each individual card. --> 
+
+    <!-- <section class="fishList"> 
+
+        <article class="fish">The Jam</article> --> 
+
+<header class="pageHeader">
+
+    <h1>Martin's Aquarium</h1> 
+
+</header> 
+
+ 
+
+        <main class ="main"> 
+
+            <section id="fishHeaderAndList">
+                <h2>Fish List</h2> 
+                
+                <section id="container"> 
+                </section> 
+            </section>
+             
+       
+
+ 
+
+        <!-- <section class="fish-section"> 
+
+            <h2 class="fish-header">Fish</h2>  
+
+    </section> 
+
+ 
+
+<section> 
+
+    <h2 class="travels-header">Travels</h2> 
+
+</section> 
+
+ 
+
+<aside>Tips</aside> --> 
+
+<section id="tipHeaderandList">
+    <h2>Tank Tips</h2> 
+
+    <section id="container2"> 
+    </section> 
+</section>
+</main> 
+
+ 
+<section id="locationHeaderandList">
+    <h2>Locations</h2> 
+
+    <section id="container3"> 
+    </section> 
+</section>
+</main> 
+
+    <!-- Designating main.js as type="module" allows you to  
+
+utilize the import and export syntax.  
+
+Note that main.js is the only file we need to load via a <script>  --> 
+
+<!--  
+
+    tell your browser to load and run your javascript. 
+
+    right above the closing <body> tag. To see if your fish print to the console.  --> 
+
+        <script type="module" src="./scripts/main.js"></script> 
+
+         
+
+ 
+
+    </body> 
+
+    </html> 
